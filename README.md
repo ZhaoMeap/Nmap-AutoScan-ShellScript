@@ -35,17 +35,17 @@
 
 ### 📂 安裝
 
-1. 把 `AutoScan.sh` 放到你的主機（例如 `~/bin/AutoScan.sh`）
+1. 把 `AutoScan_ver1.sh` 放到你的主機（例如 `~/bin/AutoScan_ver1.sh`）
 2. 賦予執行權：
 
 ```bash
-chmod 777 AutoScan.sh
+chmod 777 AutoScan_ver1.sh
 ```
 
 3. 執行：
 
 ```bash
-bash AutoScan.sh <IPv4> <loop-count>
+bash AutoScan_ver1.sh <IPv4> <loop-count>
 ```
 
 ---
