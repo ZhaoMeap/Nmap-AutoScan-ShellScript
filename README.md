@@ -1,3 +1,5 @@
+![Cover.png](https://github.com/ZhaoMeap/Nmap-AutoScan-ShellScript/blob/main/Cover.png)
+
 # ✒️ AutoScan — 自動化 Nmap 掃描 + 打包上傳工具
 
 一個簡單、易用的 Bash 腳本，可自定義掃描的圈數，對指定 IPv4 做 Nmap  TCP 掃描，將每次掃描的結果儲存到使用者桌面，並且將資料夾打包並一次回傳至 Windows 桌面。輸出經過「清理／美化」，並在每次掃描或上傳結果顯示醒目的大字 `PASS` / `FAIL`。
