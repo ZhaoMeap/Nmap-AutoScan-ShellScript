@@ -4,7 +4,7 @@
 
 一個簡單、易用的 Bash 腳本，可自定義掃描的圈數，對指定 IPv4 做 Nmap  TCP 掃描，將每次掃描的結果儲存到使用者桌面，並且將資料夾打包並一次回傳至 Windows 桌面。
 
-> 檔名：`AutoScan.sh`
+> 檔名：`AutoScan_ver1.sh`
 
 ---
 
