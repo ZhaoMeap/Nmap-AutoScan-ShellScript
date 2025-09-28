@@ -3,15 +3,15 @@
 # Usage: sudo bash AutoScan.sh <IPv4> <loop-count>
 set -euo pipefail
 
-SLEEP_SECONDS=60
+SLEEP_SECONDS=60 # 你可以自己調整每次掃描的時間
 
 # Windows upload settings via env vars or edit here
-WIN_HOST="172.31.176.1"
-WIN_USER="ray"
-WIN_TARGET_USER="GF66"
-WIN_PASS="349643"
+WIN_HOST="" # 輸入你 Windows vEthernet IPv4
+WIN_USER="" # 輸入你的 Windows username
+WIN_TARGET_USER="" # 輸入你的 Windows target username
+WIN_PASS="" # 輸入你的 Windows 密碼
 
-# ANSI 顏色碼
+# ======== ANSI 顏色碼 ========
 GREEN='\033[1;32m'
 RED='\033[1;31m'
 NC='\033[0m' # reset
