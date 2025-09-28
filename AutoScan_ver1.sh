@@ -44,7 +44,7 @@ done
 
 ARCHIVE_PATH="${REAL_HOME}/Desktop/ScanResults_${TARGET_IP}_$(date +%Y%m%d).tar.gz"
 tar -czf "${ARCHIVE_PATH}" -C "${DEST_DIR}" .
-scp -r "${ARCHIVE_PATH}" "ray@172.31.176.1:/C:/Users/GF66/Desktop"
+scp -r "${ARCHIVE_PATH}" "your_username@<your_win_vEtherNetIPv6>:/<your_win_directory"
 
 echo "Complete!"
 exit 0
