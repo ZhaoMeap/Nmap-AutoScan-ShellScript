@@ -14,7 +14,7 @@ if ! [[ "$LOOP_COUNT" =~ ^[1-9][0-9]*$ ]]; then
   exit 1
 fi
 
-REAL_HOME=$(getent passwd raychao | cut -d: -f6)
+REAL_HOME=$(getent passwd <your_username> | cut -d: -f6)
 DEST_DIR="${REAL_HOME}/Desktop/ScanResult"
 SLEEP_SECONDS=60
 count=0
